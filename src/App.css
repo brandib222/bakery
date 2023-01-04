@@ -16,17 +16,31 @@
 .links {
   background-color: tan;
   font-size: 20px;
-  padding: 0% 10%;
+  padding: 0% 5%;
   display:flex;
   justify-content:space-between;
   align-items: center;
   flex-direction: row;
 }
 
+.footer {
+  background-color: tan;
+  font-size: 20px;
+  padding: 1% 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;}
+
 h1 {
   font-size: 50px;
+
+}
+
+h2 {
+  font-size: 30px;
 }
 
 img {
-  margin: 2%;
+  margin: 0% 0% 5% 0%;
 }
