@@ -15,20 +15,21 @@ function App() {
       <div className='header'>
             <div className='nav-wrapper'>
               <nav>
+                  <Link className='landing-btn' to='/'>Home</Link>
                   <Link className='about-btn' to='/about'>About</Link>
                   <Link className='menu-btn' to='/menu'> Menu</Link>
                   <Link className='location-btn' to='/location'>Location</Link>
                   <Link className='socials-btn' to='/socials'>Socials</Link>
               </nav>
-            <Routes>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/menu' element={<Menu/>}/>
-                <Route path='/location' element={<Location/>}/>
-                <Route path='/socials' element={<Socials/>}/>
-            </Routes>
+              <Routes>
+                  <Route path='/' element={<LandingPage/>}/>
+                  <Route path='/about' element={<About/>}/>
+                  <Route path='/menu' element={<Menu/>}/>
+                  <Route path='/location' element={<Location/>}/>
+                  <Route path='/socials' element={<Socials/>}/>
+              </Routes>
           </div>
       </div>
-      <LandingPage/>
       <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet"></link>
     </div>
   );
