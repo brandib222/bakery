@@ -15,11 +15,11 @@ function App() {
       <div className='header'>
             <div className='nav-wrapper'>
               <nav>
-                  <Link className='landing-btn' to='/'>Home</Link>
-                  <Link className='about-btn' to='/about'>About</Link>
-                  <Link className='menu-btn' to='/menu'> Menu</Link>
-                  <Link className='location-btn' to='/location'>Location</Link>
-                  <Link className='socials-btn' to='/socials'>Socials</Link>
+                  <Link className='landing-btn btn' to='/'>Home</Link>
+                  <Link className='about-btn btn' to='/about'>About</Link>
+                  <Link className='menu-btn btn' to='/menu'> Menu</Link>
+                  <Link className='location-btn btn' to='/location'>Location</Link>
+                  <Link className='socials-btn btn' to='/socials'>Socials</Link>
               </nav>
               <Routes>
                   <Route path='/' element={<LandingPage/>}/>
