@@ -13,14 +13,23 @@
   color: black;
 }
 
-.links {
-  background-color: tan;
+nav {
+  background-color: rgb(194, 163, 122);
   font-size: 20px;
-  padding: 0% 5%;
+  padding: 2% 5%;
   display:flex;
   justify-content:space-between;
   align-items: center;
   flex-direction: row;
+}
+
+.btn {
+  text-decoration: none;
+  color:black;
+}
+
+.about-info {
+  margin:0% 30%;
 }
 
 .footer {
